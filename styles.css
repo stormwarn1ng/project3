@@ -1,0 +1,18 @@
+.Irvine {
+  max-width: 95%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding-top: 5px;
+}
+h1 {
+  text-align: center;
+}
+
+.discription {
+  text-align: center;
+}
+
+html {
+font-family: 'Raleway', sans-serif;
+}
