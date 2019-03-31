@@ -1,16 +1,14 @@
-.Irvine {
-  max-width: 95%;
-  display: block;
-  height: auto;
-  margin: auto;
-  padding-top: 5px;
+#img-div {
+  width:100%;
 }
-h1 {
+
+#title {
   text-align: center;
 }
 
-.discription {
+#img-caption {
   text-align: center;
+  margin: 15px;
 }
 
 html {
@@ -18,6 +16,26 @@ html {
   background-color: rgba(155, 175, 185, 0.72);
 }
 
+img {
+  display: block;
+  height: auto;
+  margin: auto;
+  width:100%;
+  background: white;
+  border: 5px solid black;
+  margin: -5px;
+  margin-top: 5px;
+}
+
 #main {
-  
+  margin: 30px auto;
+  padding: 10px;
+}
+
+summary {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(155, 175, 185, 0.72);
 }
