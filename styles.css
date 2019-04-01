@@ -47,3 +47,40 @@ summary {
 .indent {
   text-indent: 20px;
 }
+
+@media (min-width: 600px) {
+.biblio {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-template-rows: (100px, auto);
+  grid-gap: 10px;
+  grid-template-areas:
+  "text text text text text text photo1 photo1 photo1"
+  "text text text text text text photo2 photo2 photo2"
+  "photo3 photo3 photo3 photo4 photo4 photo4 photo5 photo5 photo5"
+}
+
+.Bibliography {
+  grid-area: text;
+}
+
+.box1 {
+  grid-area: photo1;
+}
+
+.box2 {
+  grid-area: photo2;
+}
+
+.box3 {
+  grid-area: photo3;
+}
+
+.box4 {
+  grid-area: photo4;
+}
+
+.box5 {
+  grid-area: photo5;
+}
+}
